@@ -28,17 +28,70 @@
             </svg>
 
         </div>
-        <h1>
+        <h1 class="flex flex-col gap-1 items-center font-bold mb-6 sm:text-lg sm:flex-row sm:text-lg lg:flex-row sm:flex-col md:text-xl">
             <span>Bucharest | OTP</span>
             <i class="hidden fa-solid fa-arrow-right sm:block" aria-hidden="true"></i>
             <span>Tenerife (Canary Islands) | TFS</span>
         </h1>
-        <button>
+        <button class="absolute top-[38%] sm:top-[40%] -translate-y-1/2 left-0 border px-4 py-2 rounded-tr-full rounded-br-full transition-colors ease hover:bg-amber-500 hover:border-amber-500" aria-controls="slider">
             <i class="fa-solid fa-chevron-left"></i>
         </button>
-        <button>
+        <button class="absolute top-[38%] sm:top-[40%] -translate-y-1/2 right-0 border px-4 py-2 rounded-tl-full rounded-bl-full transition-colors ease hover:bg-amber-500 hover:border-amber-500">
             <i class="fa-solid fa-chevron-right"></i>
         </button>
+        <div class="flex w-11/12 mx-auto gap-2 overflow-x-scroll mb-8 scroll-smooth">
+            <div class="bg-gray-100 w-[130px] h-[80px] rounded flex-shrink-0 flex flex-col justify-center border-2 text-center px-4 py-2 hover:border-amber-500">
+                <h3 class="text-sm font-semibold">Tue 30, Apr</h3>
+                <p class="text-xs">No flights</p>
+            </div>
+
+            <div class="bg-gray-100 w-[130px] h-[80px] rounded border-2 flex flex-col justify-center text-center px-4 py-2 hover:border-amber-500 flex-shrink-0">
+                <h3 class="text-sm font-semibold">Wed 01, May</h3>
+                <p class="text-xs">No flights</p>
+            </div>
+
+            <div class="bg-gray-100 w-[130px] h-[80px] rounded border-2 flex flex-col justify-center text-center px-4 py-2 hover:border-amber-500 flex-shrink-0">
+                <h3 class="text-sm font-semibold">Thu 02, May</h3>
+                <p class="text-xs"text-xs>From</p>
+                <p class="text-xs font-semibold before:content-['$']">264</p>
+            </div>
+
+            <div class="bg-gray-100 w-[130px] h-[80px] rounded border-2 flex flex-col justify-center text-center px-4 py-2 hover:border-amber-500 flex-shrink-0">
+                <h3 class="text-sm font-semibold">Fri 03, May</h3>
+                <p class="text-xs">No flights</p>
+            </div>
+
+            <div class="bg-gray-100 w-[130px] h-[80px] rounded border-2 flex flex-col justify-center text-center px-4 py-2 hover:border-amber-500 flex-shrink-0">
+                <h3 class="text-sm font-semibold">Tue 30, Apr</h3>
+                <p class="text-xs">No flights</p>
+            </div>
+
+            <div class="bg-gray-100 w-[130px] h-[80px] rounded border-2 flex flex-col justify-center text-center px-4 py-2 hover:border-amber-500 flex-shrink-0">
+                <h3 class="text-sm font-semibold">Sat 04, May</h3>
+                <p class="text-xs">No flights</p>
+            </div>
+        </div>
+        <div class="flex flex-row sm:flex-row gap-4 w-full items-center text-center max-w-lg">
+            <div class="text-sm">
+                <h3 class="font-bold">Thu 02, May 2019</h3>
+                <time class="text-2xl sm:text-3xl md:text-4xl font-bold">13:40</time>
+                <p>BUCHAREST</p>
+            </div>
+
+            <div class="relative isolate flex-1 before:content-[''] before:absolute before:top-1/2 before:-translate-y-1/2 before:left-0 before:right-0 before:-z-10 before:w-full before:border before:border-dashed">
+                <p class="bg-white w-fit mx-auto border rounded-full px-4">6h 15m</p>
+            </div>
+
+            <div class="text-sm">
+                <h3 class="font-bold">Thu 02, May 2019</h3>
+                <time class="text-2xl sm:text-3xl md:text-4xl font-bold">17:55</time>
+                <p>TENERIFE (CANARY ISLANDS)</p>
+            </div>
+        </div>
+        <button class="bg-amber-500 text-bold text-white w-full max-w-[20.5rem] uppercase rounded font-semibold hover:bg-amber-500/75 py-4 my-8 transition-colors ease">select bundle</button>
+
+
+
     </main>
     
 </body>
